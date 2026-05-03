@@ -177,4 +177,3 @@ Commit and push your changes, then open a PR.
 This project is licensed under the MIT License – see the LICENSE file for details.
 🙏 Acknowledgments
 Inspired by the frustration of remembering different package manager commands.
-
