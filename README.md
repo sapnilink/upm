@@ -4,39 +4,29 @@ Unified Package Manager for Linux
 upm is a lightweight, cross-distro wrapper for Linux package managers. It provides a unified syntax for installing, removing, updating, and searching packages across different Linux distributions, so you never have to remember whether it's apt, dnf, pacman, or zypper again.
 Whether you're switching distros, managing multiple systems, or just tired of Googling package manager commands, upm has you covered.
 ✨ Features
+
 ✅ Unified Syntax – Use the same commands (install, remove, update, search) across all supported distros.
+
 ✅ Distro Detection – Automatically detects your Linux distribution and uses the correct package manager.
+
 ✅ Simple & Fast – No dependencies, just a single bash script.
+
 ✅ Config Support – Restore your packages from a config file after a fresh install.
+
 ✅ Extensible – Easy to add support for new distros or package managers.
+
 📋 Supported Distros & Package Managers
-Distro
-Package Manager
-Supported Actions
-Ubuntu
-apt
-install, remove, update, search
-Debian
-apt
-install, remove, update, search
-Fedora
-dnf
-install, remove, update, search
-RHEL/CentOS
-dnf
-install, remove, update, search
-Arch Linux
-pacman
-install, remove, update, search
-Manjaro
-pacman
-install, remove, update, search
-EndeavourOS
-pacman
-install, remove, update, search
-openSUSE
-zypper
-install, remove, update, search
+
+Distro  Package Manager  Supported Actions
+Ubuntu        apt        install, remove, update, search
+Debian        apt        install, remove, update, search
+Fedora        dnf        install, remove, update, search 
+RHEL/CentOS   dnf        install, remove, update, search
+Arch Linux   pacman      install, remove, update, search
+Manjaro      pacman      install, remove, update, search
+EndeavourOS  pacman      install, remove, update, search
+openSUSE     zypper      install, remove, update, search
+
 🚀 Installation
 1. Quick Install
 Run the following command to download and install upm:
