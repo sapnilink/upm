@@ -38,14 +38,14 @@ Whether you're switching distros, managing multiple systems, or just tired of Go
 ### Quick Install
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/upm/main/upm -o /usr/local/bin/upm && \
+curl -sSL https://raw.githubusercontent.com/sapnilink/upm/main/upm -o /usr/local/bin/upm && \
 sudo chmod +x /usr/local/bin/upm
 ```
 
 ### Manual Install
 
 ```bash
-git clone https://github.com/yourusername/upm.git
+git clone https://github.com/sapnilink/upm.git
 cd upm
 ```
 
@@ -179,7 +179,7 @@ Contributions are welcome!
 ### Local Development
 
 ```bash
-git clone https://github.com/yourusername/upm.git
+git clone https://github.com/sapnilink/upm.git
 cd upm
 chmod +x upm
 ./upm install git
