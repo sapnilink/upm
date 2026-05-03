@@ -3,6 +3,7 @@ Unified Package Manager for Linux
 
 upm is a lightweight, cross-distro wrapper for Linux package managers. It provides a unified syntax for installing, removing, updating, and searching packages across different Linux distributions, so you never have to remember whether it's apt, dnf, pacman, or zypper again.
 Whether you're switching distros, managing multiple systems, or just tired of Googling package manager commands, upm has you covered.
+
 ✨ Features
 
 ✅ Unified Syntax – Use the same commands (install, remove, update, search) across all supported distros.
@@ -31,31 +32,29 @@ openSUSE     zypper      install, remove, update, search
 1. Quick Install
 Run the following command to download and install upm:
 
+```
 curl -sSL https://raw.githubusercontent.com/yourusername/upm/main/upm -o /usr/local/bin/upm && \
 sudo chmod +x /usr/local/bin/upm
-
+```
 
 2. Manual Install
 Clone the repository:
 
+```
  git clone https://github.com/yourusername/upm.git
  cd upm
-
-
-
+```
 Move the script to your PATH (e.g., /usr/local/bin):
 
+```
  sudo cp upm /usr/local/bin/
  sudo chmod +x /usr/local/bin/upm
-
-
-
+```
 Verify it works:
 
+```
  upm --help
-
-
-
+```
 💡 Usage
 Basic Commands
 Command
